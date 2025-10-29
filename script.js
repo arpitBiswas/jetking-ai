@@ -20,6 +20,8 @@ function aiResponse(userText) {
     return "I'm JETKING AI, your chat assistant.";
   } else if (/help/i.test(userText)) {
     return "Sure! Ask me anything about tech, education, or general topics.";
+  } else if (/who are developed/i.test(userText)) {
+    return "Mr. Arpit Biswas made me a sir." ;  
   } else {
     return "I'm here to help! Please ask your question.";
   }
